@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Plant Match - Home-->
+<!--Copy Sources: https://bloomscape.com/plant-care-guide/monstera/#g2
+    https://thehealthyhouseplant.com/diagnosing-your-monstera-deliciosa-whats-wrong-and-what-can-you-do/
+    https://bloomsprouts.com/monstera-care/#grow
+    https://www.floradelaterre.com/monstera-companion-plants/
+    https://bloomscape.com/plant-care-guide/philodendron/
+    https://www.thesill.com/blogs/plants-101/how-to-care-for-golden-pothos-epipremnum-aureum
+    https://extension.psu.edu/philodendron-diseases
+    https://www.thespruce.com/grow-philodendron-houseplants-1902768-->
+
+<head>
+    <title>Plant Match - Home</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/icon-favicon.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+
+    <!--Style Sheet-->
+    <link href="index.css" type="text/css" rel="stylesheet" />
+
+    <!--JS-->
+    <script type="text/javascript" src="index.js"></script>
+
+    <!--Google Font Quicksand-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <!--Google Font Abril Fatface-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!--Google Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<!-- Navigation Bar Section -->
+
+<body id="top">
+
+    <div id="mon"></div>
+    <div class="box-header">
+        <header>
+            <!--Original Logo Created In Adobe Illustrator-->
+            <a href="index.html"><img src="images/icon-logo.svg" alt="Plant Match" class="logo" /></a>
+            <nav>
+                <a class="nav" href="monstera.html">Monstera</a>
+                <a class="nav" href="philodendron.html">Philodendron</a>
+                <a class="nav" href="pothos.html">Pothos</a>
+            </nav>
+        </header>
+    </div>
+
+    <!--Plant Companions-->
+    <div><br></br></div>
+    <div class="box-lightgreen">
+        <div class="container">
+            <div class="content">
+
+                <h1 class="home">Plant Companions</h1>
+
+                <p class="sub">
+                    <script>
+                        currentTime = new Date();
+                        if (currentTime.getHours() < 12)
+                            document.write("Hello there and <b>Good Morning</b> to you!");
+                        else if (currentTime.getHours() < 17)
+                            document.write("Hello there and <b>Good Afternoon</b> to you!");
+                        else
+                            document.write("Hello there and <b>Good Evening</b> to you!");
+                    </script><br></br>
+                    Get ready to learn all there is to know about <b>Monsteras</b>, <b>Philodendrons</b> and
+                    <b>Pothos</b>. These indoor plants
+                    are the best match for living and growing together making them the perfect companions.
+                    <br></br>
+                    <a href="#exp"><button>SEE MATCHES</button></a>
+            </div>
+
+            <!--Image Source: https://www.boredpanda.com/illustrations-cats-monstera-plant-meowstera-lim-heng-swee/?utm_source=google&utm_medium=organic&utm_campaign=organic -->
+            <div class="image"><img id="image" src="images/image-hero-home.svg" alt="Cat and Plant"
+                    title="&copy;Lim Heng Swee" /></div>
+            <script>
+                document.querySelector('#image').addEventListener('mouseover', e => {
+                    e.target.src = "images/image-hero-home-hover.svg";
+                });
+            </script>
+
+        </div>
+    </div>
+
+    <!-- Explore a Matching Plant -->
+    <div id="exp" class="container">
+        <h2 style="text-align: center;">Explore a Matching Plant</h2><br></br>
+    </div>
+    <!-- Image Source: https://unsplash.com/photos/JKnETI-aoXI, https://www.floradelaterre.com/pothos-leaves-curling/ and https://www.etsy.com/listing/792141684/heart-leaf-philodendron-cutting-unrooted -->
+    <div class="grid">
+        <div><a class="tile" href="monstera.html"><img href="monstera.html" src="images/tile-monstera.svg"
+                    alt="Monstera Leaves" /><br>Monstera</a>
+        </div>
+        <div><a class="tile" href="philodendron.html"><img href="philodendron.html" src="images/tile-philodendron.svg"
+                    alt="Philodendron Leaves" /><br>Philodendron</a>
+        </div>
+        <div><a class="tile" href="pothos.html"><img href="pothos.html" src="images/tile-pothos.svg"
+                    alt="Pothos Leaves" /><br>Pothos</a>
+        </div>
+    </div>
+
+    <br></br>
+    <div id="yourPlant"></div>
+    <!--Footer Section-->
+    <footer>
+        <a href="#top"><img src="images/icon-top.svg" class="top" /></a>
+        <p class="copyright"> &#169;2021 Plant Match. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

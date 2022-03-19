@@ -1,0 +1,25 @@
+Language Feature: CSS Grid (see index.css)
+.grid {
+    max-width: 1000px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+3-rd Party Library: SASS (see install and usage log below)
+
+Summers-iMac:Plant Match summerli$ sudo npm install -g sass
+
+added 16 packages, and audited 17 packages in 621ms
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Summers-iMac:Plant Match summerli$ sass --watch scss:css
+Compiled scss/index.scss to css/index.css.
+Sass is watching for changes. Press Ctrl-C to stop.

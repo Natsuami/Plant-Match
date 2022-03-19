@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="45px" viewBox="0 0 144 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Plant-Match---Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1397.000000, -1417.000000)" id="Group-4">
+            <g transform="translate(1397.000000, 1417.000000)">
+                <rect id="Rectangle" fill="#E6B0A4" x="0" y="0" width="144" height="45"></rect>
+                <text id="BACK-TO-TOP" font-family="Quicksand-Bold, Quicksand" font-size="16" font-weight="bold" line-spacing="22" fill="#FFFFFF">
+                    <tspan x="20.428" y="29">BACK TO TOP</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

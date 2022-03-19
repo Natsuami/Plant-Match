@@ -12,4 +12,4 @@ Plant Match is an informative website to help educate people on indoor plants th
 
 ## Project Goals:
 
-This is a personal project that uses HTML, CSS and JS to create an interactive website experience. The site includes responsive design, CSS animations and scripts to create a more engaging experience. Node.js was also used to add the library SASS as well as check for errors.
+This is a personal project that uses HTML, CSS and JS to create an interactive website experience. The site includes responsive design, CSS animations and scripts to drive more engagement with users. Node.js was also used to add the library SASS as well as check for errors.
